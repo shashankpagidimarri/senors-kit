@@ -1,0 +1,49 @@
+<resources>
+    <!-- other-->
+    <string name="app_name">sensorApp</string>
+    <string name="main_activity_title">Sensor App</string>
+    <string name="Unavailable_sensors_message">Unavailable sensors will have their buttons disabled</string>
+
+    <!-- title text-->
+    <string name="proximity_title">Proximity Sensor</string>
+    <string name="accelerometer_title">Accelerometer</string>
+    <string name="light_title">Ambient Light Sensor</string>
+    <string name="GPS_title">GPS</string>
+    <string name="magnetometer_title">Magnetometer</string>
+    <string name="pressure_title">Pressure Sensor</string>
+
+    <!-- value text-->
+    <string name="proximity_text">Sensor Value: %1$.3f cm</string>
+    <string name="accelerometer_x_value">X Value: %1$.3f m/s²</string>
+    <string name="accelerometer_y_value">Y Value: %1$.3f m/s²</string>
+    <string name="accelerometer_z_value">Z Value: %1$.3f m/s²</string>
+    <string name="light_text">Sensor Value: %1$.3f lx</string>
+    <string name="GPS_lat_value">Latitude: %1$.3f°</string>
+    <string name="GPS_long_value">Longitude: %1$.3f°</string>
+    <string name="magnetometer_x_value">X Value: %1$.3f μT</string>
+    <string name="magnetometer_y_value">Y Value: %1$.3f μT</string>
+    <string name="magnetometer_z_value">Z Value: %1$.3f μT</string>
+    <string name="pressure_text">Value: %1$.2f hPa</string>
+    <string name="theme_text">Screen: %1$s</string>
+    <!-- button text-->
+    <string name="proximityBtnText">Proximity Sensor</string>
+    <string name="accelerometerBtnText">Accelerometer</string>
+    <string name="lightBtnText">Ambient Light Sensor</string>
+    <string name="GPSBtnText">GPS</string>
+    <string name="GPSBtnText2">Get Coordinates</string>
+    <string name="magnetometerBtnText">Magnetometer</string>
+    <string name="pressureBtnText">Pressure Sensor</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main" />
+    <string name="title_activity_references">references</string>
+    <string name="title_activity_gyro">gyroActivity</string>
+    <string name="title_activity_switch">SwitchActivity</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="c.hernanrazo.sensorapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sensors"
+        android:label="sensor_data"
+        android:roundIcon="@drawable/sensorspage"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".SwitchActivity"
+            android:exported="false"
+            android:label="@string/title_activity_switch"
+            android:theme="@style/NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gyroActivity"
+            android:exported="false"
+            android:label="@string/title_activity_gyro"
+            android:theme="@style/NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".references"
+            android:exported="false"
+            android:label="@string/title_activity_references"
+            android:theme="@style/NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".proximityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".accelerometerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".lightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GPSActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".magnetometerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pressureActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
